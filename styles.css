@@ -1201,7 +1201,7 @@ body {
     padding: 5px;
     background: #2d2d2d;
     border-radius: 8px;
-    border-left: 1px solid #2d2d2d;
+    border-left: 0.5px solid #2d2d2d;
 }
 
 /* Form Groups */
@@ -1280,9 +1280,9 @@ body {
     line-height: 1.5;
     text-align: center;
     padding: 4px;
-    background: #424242;
+    background: #2d2d2d;
     border-radius: 4px;
-    border: 1px solid #424242;
+    border: 1px solid #2d2d2d;
 }
 
 /* Success Message */
@@ -1736,7 +1736,7 @@ body {
 .email-input-container input {
     width: 100%;
     padding: 14px 18px;
-    border: 2px solid #e0e0e0;
+    border: 2px solid #424242;
     border-radius: 8px;
     font-size: 1rem;
     transition: all 0.3s ease;
@@ -1744,7 +1744,7 @@ body {
 }
 
 .email-input-container input:focus {
-    border-color: #1976d2;
+    border-color: #424242;
     outline: none;
     background: white;
     box-shadow: 0 0 0 3px rgba(25, 118, 210, 0.1);
@@ -1758,17 +1758,17 @@ body {
     right: 0;
     margin-top: 5px;
     padding: 8px 12px;
-    background: #e8f4fd;
+    background: #2d2d2d;
     border-radius: 6px;
-    border-left: 4px solid #1976d2;
+    border-left: 4px solid #2d2d2d;
     font-size: 0.9rem;
-    color: #2c3e50;
+    color: #e0e0e0;
     display: none;
     opacity: 0;
     transform: translateY(-10px);
     transition: opacity 0.3s ease, transform 0.3s ease;
     z-index: 10;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px #e0e0e0(0, 0, 0, 0.1);
 }
 
 .email-input-hint.show {
@@ -1791,7 +1791,7 @@ body {
 }
 
 .email-input-hint i {
-    color: #1976d2;
+    color: #e0e0e0;
     margin-right: 8px;
     font-size: 0.9rem;
 }
