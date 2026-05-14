@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Handle email input focus - show hint briefly
     emailInput.addEventListener('focus', function() {
-        showEmailHint('Enter your email address', 3000);
+        showEmailHint('Enter Your Email', 3000);
     });
     
     // Handle email input changes
